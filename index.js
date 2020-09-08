@@ -256,8 +256,6 @@ function rockPaperScissors(yourThrow) {
       result = "The computer threw scissors! "
   }
 
-  console.log(computerThrow);
-
   if (yourThrow === "rock") {
     if (computerThrow === 1) {
       result += "Draw.";
